@@ -1,0 +1,18 @@
+King's Quest Korean test patch 0.1.0
+
+Embedded fonts: Jua and Gamja Flower, SIL Open Font License 1.1.
+Full font copyright and licence texts are included in this directory.
+
+Windows standalone runtime: CPython 3.9.13 (PSF licence), Tcl/Tk,
+lzokay 1.1.8 (MIT), PyInstaller 6.22.3 bootloader (GPL with the
+bootloader exception described in the supplied COPYING text).
+
+The portable Python installer uses the Python standard library. For LZO
+on Linux it dynamically uses the system liblzo2; that library is not
+distributed in this archive. Windows uses lzokay instead.
+
+bsdiff4 1.4.0 was used only to generate deltas; its module and game
+originals are not included. The portable delta decoder is implemented
+in patch_codec.py. Runtime and font licence texts retain their own terms.
+
+This test archive contains patch differences, not a full copy of the game.

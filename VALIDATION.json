@@ -1,0 +1,16 @@
+{
+  "release": "0.1.0-test",
+  "files": 457,
+  "pristine_install_exact": true,
+  "all_patched_hashes_match": true,
+  "repeated_install_idempotent": true,
+  "restore_original_exact": true,
+  "windows_standalone_cli_tested": true,
+  "windows_gui_initialization_tested": true,
+  "windows_gameplay_tested_for_distribution": false,
+  "linux_arm64_execution_tested": false,
+  "droiddeck_gameplay_tested": false,
+  "delta_reconstruction_all_files_exact": true,
+  "failure_transaction_tests": 11,
+  "duration_seconds": 100.24
+}
